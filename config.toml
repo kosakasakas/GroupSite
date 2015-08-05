@@ -1,0 +1,98 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Dance Synchronized Animation & Visualization Group"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Dance Synchronized Animation & Visualization Group."
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+            vision    = "Vision"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Waseda University  Morishima Lab."
+		subtitle   = "DANCE SYNCHRONIZED ANIMATION & VISUALIZATION GROUP"
+		buttonText = "▼"
+
+
+	# About section
+	[params.about]
+		headline    = "Our Vision"
+		description = "従来、楽曲のビジュアライゼーションシステムは、波形や周波数スペクトログラムを用いたものに留まり、楽曲の持つ印象を視覚的に表現する術を持たなかった。では、楽曲の印象を視覚化するものとは何か。私たちはその答えが” ダンス” にあるのではないかと考えている。ダンスとは，アーティストがその楽曲を理解し，身体動作で表現する試みの１つであり，リスナーがその楽曲を視覚的に理解する上でも重要な要素となる。そこで私たちは，楽曲の印象をダンスでビジュアル化することで楽曲をより深く理解できるのではないかと考えた。以上を踏まえ、私たちは楽曲の持つ特徴や印象にマッチした3Dキャラクターのダンスアニメーションを自動で生成するシステムを提案し，実装を行う。本プロジェクトは，従来にはなかった新しい音楽鑑賞のスタイルを提示し，リスナーが音楽をより楽しむと同時に、能動的に音楽を理解しようとするきっかけを生み出すものである．"
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Keywords"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "音楽と動きのシンクロ"
+            description = "Synchronization between Music and Motion"
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "モーション解析"
+			description = "Motion Analysis"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "楽曲構造・特徴量解析"
+            description = "Music Structure and Feature Analysis"
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "感情分析, ビジュアライゼーション"
+            description = "You have to make your websites with love these days!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "123-456-6789"
+		email = "feedback@startbootstrap.com"
