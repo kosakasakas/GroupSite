@@ -76,7 +76,7 @@ theme = "hugo-creative-theme"
     # News modals
 	[params.news]
         headline = "News"
-        description = "今後の発表予定など、最新情報をお知らせします."
+        description = "今後の発表予定など、最新情報をお知らせします. hoge hoge hoge hoge hoge hoge hoge hoge hoge.hoge hoge hoge hoge hoge hoge hoge hoge hoge."
 
 	[params.news.modal]
         date = "Date"
@@ -98,7 +98,7 @@ theme = "hugo-creative-theme"
     # Projects
 	[params.projects]
         headline = "Projects"
-        description = "現在進行中のプロジェクトを中心に紹介します."
+        description = "現在進行中のプロジェクトを中心に紹介します.hogehoge hogehoge hogehoge hogehoge hogehoge.hoge hoge hoge hoge hoge hoge hoge hoge hoge."
 
 	[params.projects.modal]
         client = "Client"
@@ -115,7 +115,8 @@ theme = "hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
-		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		headline = "Contuct Us"
+		description = "デジタルネイチャーグループは常に熱意があり努力できるような人材を探しています．入学するには大学院：図書館情報メディア研究科か，学部：情報メディア創成学類を受験してください．"
 		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		email = "hogehoge@gmail.com"
+        twitter = "kosakasakas"
