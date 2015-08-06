@@ -29,24 +29,17 @@ theme = "hugo-creative-theme"
 
 		[params.navigation.links]
             vision    = "Vision"
+            news      = "News"
 			keywords  = "Keywords"
-			portfolio = "Portfolio"
-			contact   = "Contact"
             projects  = "Projects"
+			contact   = "Contact"
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Waseda University  Morishima Lab."
-		subtitle   = "DANCE SYNCHRONIZED ANIMATION & VISUALIZATION GROUP"
+		slogan     = "DANCE SYNCHRONIZED ANIMATION & VISUALIZATION GROUP"
+		subtitle   = "WASEDA UNIVERSITY MORISHIMA LAB."
 		buttonText = "▼"
-
-
-	# About section
-	[params.about]
-		headline    = "About"
-		description = "hoge"
-		buttonText  = "Get started!"
 
 	# Vision section
 	[params.vision]
@@ -54,54 +47,41 @@ theme = "hugo-creative-theme"
 		description = "従来、楽曲のビジュアライゼーションシステムは、波形や周波数スペクトログラムを用いたものに留まり、楽曲の持つ印象を視覚的に表現する術を持たなかった。では、楽曲の印象を視覚化するものとは何か。私たちはその答えが” ダンス” にあるのではないかと考えている。ダンスとは，アーティストがその楽曲を理解し，身体動作で表現する試みの１つであり，リスナーがその楽曲を視覚的に理解する上でも重要な要素となる。そこで私たちは，楽曲の印象をダンスでビジュアル化することで楽曲をより深く理解できるのではないかと考えた。以上を踏まえ、私たちは楽曲の持つ特徴や印象にマッチした3Dキャラクターのダンスアニメーションを自動で生成するシステムを提案し，実装を行う。本プロジェクトは，従来にはなかった新しい音楽鑑賞のスタイルを提示し，リスナーが音楽をより楽しむと同時に、能動的に音楽を理解しようとするきっかけを生み出すものである．"
 		buttonText  = "See Projects"
 
-
-	# Service section
-	[params.services]
-		headline = "Keywords"
-
-        [[params.services.list]]
-            icon = "fa-music"
-            title = "音楽と動きのシンクロ"
-            description = "Synchronization between Music and Motion"
-
-        [[params.services.list]]
-			icon = "fa-hand-o-right"
-			title = "モーション解析"
-			description = "Motion Analysis"
-
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "楽曲構造・特徴量解析"
-            description = "Music Structure and Feature Analysis"
-
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "感情分析, ビジュアライゼーション"
-            description = "Emotion Analysis and Visualization"
-
 	# Keywords section
 	[params.keywords]
 		headline = "Keywords"
+        description = "本研究室は研究室のテーマとして「デジタルネイチャー」という言葉を据えます．計算機資源が実世界に溢れる今，リアルとバーチャルの線引きを超えて，計算機にとって自然なこと，自然に溶け込んだ計算機の両面を追求し，あらゆる問題解決に挑戦します．"
 
         [[params.keywords.list]]
             icon = "fa-music"
-            title = "音楽と動きのシンクロ"
-            description = "Synchronization between Music and Motion"
+            title = "Synchronization between Music and Motion"
+            description = "音楽と動きのシンクロ"
 
         [[params.keywords.list]]
 			icon = "fa-hand-o-right"
-			title = "モーション解析"
-			description = "Motion Analysis"
+			title = "Motion Analysis"
+			description = "モーション解析"
 
 		[[params.keywords.list]]
             icon = "fa-newspaper-o"
-            title = "楽曲構造・特徴量解析"
-            description = "Music Structure and Feature Analysis"
+            title = "Music Structure and Feature Analysis"
+            description = "楽曲構造・特徴量解析"
 
         [[params.keywords.list]]
             icon = "fa-heart"
-            title = "感情分析, ビジュアライゼーション"
-            description = "Emotion Analysis and Visualization"
+            title = "Emotion Analysis and Visualization"
+            description = "感情分析, ビジュアライゼーション"
+
+
+    # News modals
+	[params.news]
+        headline = "News"
+        description = "今後の発表予定など、最新情報をお知らせします."
+
+	[params.news.modal]
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
 
 
     # Portfolio modals
@@ -114,9 +94,11 @@ theme = "hugo-creative-theme"
         category = "Category"
         buttonText = "Close"
 
+
     # Projects
 	[params.projects]
         headline = "Projects"
+        description = "現在進行中のプロジェクトを中心に紹介します."
 
 	[params.projects.modal]
         client = "Client"
