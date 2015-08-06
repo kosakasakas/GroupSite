@@ -32,7 +32,7 @@ theme = "hugo-creative-theme"
 			services  = "Services"
 			portfolio = "Portfolio"
 			contact   = "Contact"
-            vision    = "Vision"
+            projects    = "Projects"
 
 
 	# Hero section
@@ -55,12 +55,12 @@ theme = "hugo-creative-theme"
 		headline = "Keywords"
 
         [[params.services.list]]
-            icon = "fa-diamond"
+            icon = "fa-music"
             title = "音楽と動きのシンクロ"
             description = "Synchronization between Music and Motion"
 
         [[params.services.list]]
-			icon = "fa-paper-plane"
+			icon = "fa-hand-o-right"
 			title = "モーション解析"
 			description = "Motion Analysis"
 
@@ -72,14 +72,26 @@ theme = "hugo-creative-theme"
         [[params.services.list]]
             icon = "fa-heart"
             title = "感情分析, ビジュアライゼーション"
-            description = "You have to make your websites with love these days!"
+            description = "Emotion Analysis and Visualization"
 
 
     # Portfolio modals
+	[params.portfolio]
+        headline = "Portfolio"
+
 	[params.portfolio.modal]
         client = "Client"
         date = "Date"
         category = "Category"
+        buttonText = "Close"
+
+    # Projects
+	[params.projects]
+        headline = "Projects"
+
+	[params.projects.modal]
+        client = "Client"
+        keyword = "Keyword"
         buttonText = "Close"
 
     # Aside section
