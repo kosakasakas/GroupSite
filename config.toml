@@ -58,15 +58,15 @@ theme = "hugo-creative-theme"
             title = "Synchronization between Music and Motion"
             description = "音楽と動きのシンクロ"
 
-        [[params.keywords.list]]
-			icon = "fa-hand-o-right"
-			title = "Motion Analysis"
-			description = "モーション解析"
-
 		[[params.keywords.list]]
             icon = "fa-newspaper-o"
             title = "Music Structure and Feature Analysis"
             description = "楽曲構造・特徴量解析"
+
+        [[params.keywords.list]]
+			icon = "fa-hand-o-right"
+			title = "Motion Analysis"
+			description = "モーション解析"
 
         [[params.keywords.list]]
             icon = "fa-heart"
