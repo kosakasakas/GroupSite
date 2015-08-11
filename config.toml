@@ -32,6 +32,7 @@ theme = "hugo-creative-theme"
             news      = "News"
 			keywords  = "Keywords"
             projects  = "Projects"
+            people    = "People"
 			contact   = "Contact"
 
 	# Hero section
@@ -121,16 +122,46 @@ theme = "hugo-creative-theme"
 		email = "iwanao731@gmail.com"
         twitter = "kosakasakas"
 
-    # test
-    [params.authors]
-        [params.authors.Derek]
-            "firstName"  = "Derek"
-            "lastName"   = "Perkins"
-        [params.authors.Joe]
-            "firstName"  = "Joe"
-            "lastName"   = "Bergevin"
-        [params.authors.Tanner]
-            "firstName"  = "Tanner"
-            "lastName"   = "Linsley"
+    # People section
+	[params.people]
+		headline    = "People"
+        description = ""
+        category1   = "Members"
+        category2   = "OB･OG"
+
+        [[params.people.member]]
+            img = "euclid_c.png"
+            name = "岩本 尚也"
+            description = "コンセプト，物理ベースキャラクタアニメーション"
+
+        [[params.people.member]]
+            img = "wakana_c.png"
+            name = "朝比奈 わかな"
+            description = "表情生成，モーション生成"
+
+        [[params.people.member]]
+            img = "kakitsuka.png"
+            name = "柿塚 亮"
+            description = "モーションの自動生成"
+
+        [[params.people.member]]
+            img = "nakatsuka.png"
+            name = "中塚 貴之"
+            description = "モーション解析"
+
+        [[params.people.obog]]
+            img = "naru_c.png"
+            name = "岡田 成美"
+            description = "ダンサー, ダンスモーションのフィルター開発， セグメンテーション分割手法"
+
+        [[params.people.obog]]
+            img = "masutaro_c.png"
+            name = "増田 太郎"
+            description = "楽曲解析"
+
+        [[params.people.obog]]
+            img = "kakuto_c.png"
+            name = "後藤 岳人"
+            description = "キャラクターコントロール技術"
 
 
