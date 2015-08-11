@@ -96,9 +96,10 @@ Newsとほぼ同じ
 gifがGroupSite/unnamed.gifにあります。これを差し替えればOKです。
 
 ## 構造など
-GroupSite/config.toml #パラメータ全般が書かれたファイル
-GroupSite/data # モーダル系の設定ファイル
-GroupSite/img # 画像は全てここ。thema/creative/static/imageのシンボリックリンク
-GroupSite/themas # 改造テーマのサブモジュール
-Groupsite/public # 実際にデプロイするデータ群。自動生成される。github pagesのアカウントのリポジトリ
-Groupsite/deploy # デプロイする時はこれを叩くとpunlicにファイルがはかれてpushされる
+
+    GroupSite/config.toml #パラメータ全般が書かれたファイル
+    GroupSite/data # モーダル系の設定ファイル
+    GroupSite/img # 画像は全てここ。thema/creative/static/imageのシンボリックリンク
+    GroupSite/themas # 改造テーマのサブモジュール
+    Groupsite/public # 実際にデプロイするデータ群。自動生成される。github pagesのアカウントのリポジトリ
+    Groupsite/deploy # デプロイする時はこれを叩くとpunlicにファイルがはかれてpushされる
