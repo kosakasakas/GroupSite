@@ -23,7 +23,7 @@ homebrewでインストールできます。(homebrewがわからない場合は
 
     brew install go
 
-GOPATHを設定して、binをPATHに通しておく。@~/zshrc
+GOPATHを設定して、binをPATHに通しておく。@~/.zshrc
 
     export GOPATH=$HOME/go
     export PATH=$HOME/go/bin:$PATH
@@ -47,10 +47,19 @@ GroupSiteリポジトリをローカルに落として使えるようにする�
 
 以上でセットアップ完了です。
 
+## プレビューしたい
+デプロイする前にチェックする場合、以下のコマンドでローカルサーバーを起動します
+
+    hugo server --watch -t creative --buildDrafts
+
+コマンドラインでこれを打った後、ブラウザで以下のURLに繋げば見れると思います。
+
+    http://127.0.0.1:1313/
+
 ## デプロイ方法
 サイトのホスティングにはgithub pagesを使っています。
-GroupSite/publicディレクトリがgithub pagesを実際に持つアカウントのサブモジュールになっています。
-アカウントを変更したい場合は、一旦punlicフォルダのサブモジュールをはずして、変更したいアカウントの.github.ioリポジトリを再度publicとしてサブモジュール登録してください。
+GroupSite/publicディレクトリがgithub pagesを実際に持つアカウントの.github.ioリポジトリのサブモジュールになっています。
+アカウントを変更したい場合は、一旦publicフォルダのサブモジュールをはずして、変更したいアカウントの.github.ioリポジトリを再度publicディレクトリとしてサブモジュール登録してください。
 この辺の細かい流れはHugoのドキュメントに書いてあるっぽいです。http://gohugo.io/tutorials/github-pages-blog/
 
 また、アカウントを変更した場合、新しいデプロイ先のURLを GroupSite/config.tomlに記述しておく必要があります。
@@ -73,7 +82,7 @@ GroupSite/publicディレクトリがgithub pagesを実際に持つアカウン�
 newsのようなモーダルある系の記事はGroupSite/news以下にあるyamlファイルで管理をしているのでそれをコピーして編集します。
 ただし、最新記事の順番にソートさせるにはファイル名の頭の採番を一個ずつ減らして新しいファイルを作っていく必要があります。理由はhugoのバグでmapの降順sortが機能しなかったため。
 
-yamlが参照している画像はimg/news以下に設置しています。ファイル名は任意でOKです。
+yamlが参照している画像はGroupSite/img/news以下に設置しています。ファイル名は任意でOKです。
 ファイルサイズは650x350pxが推奨です。
 
 ### Projectsの編集
@@ -86,4 +95,10 @@ Newsとほぼ同じ
 ### Topの背景を変えたい
 gifがGroupSite/unnamed.gifにあります。これを差し替えればOKです。
 
-
+## 構造など
+GroupSite/config.toml #パラメータ全般が書かれたファイル
+GroupSite/data # モーダル系の設定ファイル
+GroupSite/img # 画像は全てここ。thema/creative/static/imageのシンボリックリンク
+GroupSite/themas # 改造テーマのサブモジュール
+Groupsite/public # 実際にデプロイするデータ群。自動生成される。github pagesのアカウントのリポジトリ
+Groupsite/deploy # デプロイする時はこれを叩くとpunlicにファイルがはかれてpushされる
