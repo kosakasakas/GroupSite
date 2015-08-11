@@ -3,7 +3,7 @@
 森島研究室ダンス班のウェブサイトを作成するジェネレータです。
 
 ## 動作確認環境
-Hugo Static Site Generator v0.15-DEV
+Hugo Static Site Generator v0.15-DEV<br>
 OS X Yosemite (10.10.3)
 
 ## インストール方法
