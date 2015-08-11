@@ -1,6 +1,6 @@
 baseurl = "http://kosakasakastest.github.io/"
 languageCode = "en-us"
-title = "Dance Synchronized Animation & Visualization Group"
+title = "Digital Dance Group"
 theme = "hugo-creative-theme"
 
 [params]
@@ -25,7 +25,7 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "Dance Synchronized Animation & Visualization Group."
+		brand = "Digital Dance Group"
 
 		[params.navigation.links]
             vision    = "Vision"
@@ -37,8 +37,8 @@ theme = "hugo-creative-theme"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "DANCE SYNCHRONIZED ANIMATION & VISUALIZATION GROUP"
-		subtitle   = "WASEDA UNIVERSITY MORISHIMA LAB."
+		slogan     = "Digital Dance Group"
+		subtitle   = "supported by Morishima Lab. at Waseda University."
 		buttonText = "▼"
 
 	# Vision section
@@ -50,7 +50,7 @@ theme = "hugo-creative-theme"
 	# Keywords section
 	[params.keywords]
 		headline = "Keywords"
-        description = "本研究室は研究室のテーマとして「デジタルネイチャー」という言葉を据えます．計算機資源が実世界に溢れる今，リアルとバーチャルの線引きを超えて，計算機にとって自然なこと，自然に溶け込んだ計算機の両面を追求し，あらゆる問題解決に挑戦します．"
+        description = "本グループは森島研究室の中でも，特に身体の動きや感情表出に関する技術に注目し，プログラミングによる計算機の力と人の創造性を組み合わせたアイデア，研究を通じたあらゆる問題解決に挑戦していきます．"
 
         [[params.keywords.list]]
             icon = "fa-music"
@@ -76,7 +76,7 @@ theme = "hugo-creative-theme"
     # News modals
 	[params.news]
         headline = "News"
-        description = "今後の発表予定など、最新情報をお知らせします. hoge hoge hoge hoge hoge hoge hoge hoge hoge.hoge hoge hoge hoge hoge hoge hoge hoge hoge."
+        description = "デジタルダンスグループの活動にまつわる最新情報をお知らせします. "
 
 	[params.news.modal]
         date = "Date"
@@ -98,7 +98,7 @@ theme = "hugo-creative-theme"
     # Projects
 	[params.projects]
         headline = "Projects"
-        description = "現在進行中のプロジェクトを中心に紹介します.hogehoge hogehoge hogehoge hogehoge hogehoge.hoge hoge hoge hoge hoge hoge hoge hoge hoge."
+        description = "現在進行中のプロジェクトを中心に紹介します."
 
 	[params.projects.modal]
         client = "Client"
@@ -115,8 +115,22 @@ theme = "hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
-		headline = "Contuct Us"
-		description = "デジタルネイチャーグループは常に熱意があり努力できるような人材を探しています．入学するには大学院：図書館情報メディア研究科か，学部：情報メディア創成学類を受験してください．"
-		phone = "123-456-6789"
-		email = "hogehoge@gmail.com"
+		headline = "Contact Us"
+		description = "デジタルダンスグループは，人の動きを初めとする様々なモーション解析技術を用いた問題解決に日々取り組んでいます．何かコラボレーションできそうなきっかけがあればぜひお声かけお願い致します．"
+		phone = "+81-3-5286-3510"
+		email = "iwanao731@gmail.com"
         twitter = "kosakasakas"
+
+    # test
+    [params.authors]
+        [params.authors.Derek]
+            "firstName"  = "Derek"
+            "lastName"   = "Perkins"
+        [params.authors.Joe]
+            "firstName"  = "Joe"
+            "lastName"   = "Bergevin"
+        [params.authors.Tanner]
+            "firstName"  = "Tanner"
+            "lastName"   = "Linsley"
+
+
