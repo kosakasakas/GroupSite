@@ -3,4 +3,4 @@
 	url = git@github.com:kosakasakas/hugo-creative-theme.git
 [submodule "public"]
 	path = public
-	url = https://github.com/kosakasakastest/kosakasakastest.github.io.git
+	url = git@github.com:iwanao731/iwanao731.github.io.git
