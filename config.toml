@@ -19,9 +19,10 @@ theme = "hugo-creative-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
-
+	name        = "kosakasakas"
+	description = "森島研究室ダンス班"
+    thumbnail   = "thumbnail.png"
+    image       = "image.png"
 
 	# Navigation
 	[params.navigation]
