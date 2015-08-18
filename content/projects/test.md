@@ -7,4 +7,17 @@ image = "0.jpg"
 +++
 
 ## ほげほげほげー
+---
+<div style="text-align: center;">
+    <img src="http://www.a-blogcms.jp/themes/www/images/siteLogo.gif" alt="サムネイル" />
+</div>
+
 てすてす
+
+    int a = 8;
+
+ああああ
+    
+ * a
+ * b
+
