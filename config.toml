@@ -1,7 +1,7 @@
 baseurl = "http://iwanao731.github.io/"
 languageCode = "en-us"
 title = "Digital Dance Group"
-theme = "creative"
+theme = "hugo-creative-theme"
 
 [params]
 
