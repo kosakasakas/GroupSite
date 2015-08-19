@@ -1,6 +1,5 @@
 +++
 date = "2015-07-05T17:48:26+09:00"
-draft = true
 title = "Expressive Dance Motion Generation"
 description = ""
 image = "0.jpg"

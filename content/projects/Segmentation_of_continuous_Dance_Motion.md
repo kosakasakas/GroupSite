@@ -1,6 +1,5 @@
 +++
 date = "2015-03-14T17:48:26+09:00"
-draft = true
 title = "Segmentation of continuous Dance Motion"
 description = "eeeeeee"
 image = "okada.jpg"

@@ -1,6 +1,5 @@
 +++
 date = "2015-06-18T17:48:26+09:00"
-draft = true
 title = "Synthesis Facial Animation"
 description = "eeeeeee"
 image = "asahina.jpg"
