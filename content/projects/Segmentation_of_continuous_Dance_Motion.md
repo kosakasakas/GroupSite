@@ -32,7 +32,9 @@ Data-driven animation using a large human motion database enables the programing
 <p>
 <b><i>Dance Motion Segmentation Method Based on Choreographic Primitives</i></b><br>
 Narumi Okada, Naoya Iwamoto, Tsukasa Fukusato and Shigeo Morishima.<br>
-In Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP 2015), 47, Berlin, 2015.03.11-14. 
-<a href=""><i class="fa fa-file-pdf-o text-primary"></i>.pdf</a><br>
-<a href="ttp://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005304303320339">DigitalLibrary</a>
+In Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP 2015), 47, Berlin, 2015.03.11-14. <br>
+[ <a href="https://dl.dropboxusercontent.com/u/10792480/paper/okada/2015_GRAPP/GRAPP_okada.pdf"><i class="fa fa-file-pdf-o text-primary"></i> Paper</a> ]
+[ <a href="https://dl.dropboxusercontent.com/u/10792480/paper/okada/2015_GRAPP/GRAPP_okada_poster.pdf"><i class="fa fa-file-pdf-o text-primary"></i> Poster</a> ]
+<a href="http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005304303320339">DigitalLibrary</a>
 </div>
+

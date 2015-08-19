@@ -33,6 +33,7 @@ Therefore, we propose a method that transforms arbitrary dance motion into more 
 <p>
 <b><i>Expressive Dance Motion Generation</i></b><br>
 Narumi Okada, Kazuki Okami, Tsukasa Fukusato, Naoya Iwamoto and Shigeo Morishima.<br>
-ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.
-<a href=""><i class="fa fa-file-pdf-o text-primary"></i>.pdf</a><br>
+ACM SIGGRAPH 2013, Posters, 4, Anaheim, 2013.07.21-25.<br>
+[ <a href="https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada.pdf"><i class="fa fa-file-pdf-o text-primary"></i> Abstract</a> ]
+[ <a href="https://dl.dropboxusercontent.com/u/10792480/paper/okada/2013_SIGGRAPH/Siggraph_okada_poseter.pdf"><i class="fa fa-file-pdf-o text-primary"></i> Poster</a> ]
 </div>
