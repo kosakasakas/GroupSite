@@ -5,7 +5,7 @@ description = ""
 image = "iwamoto.jpg"
 +++
 
-## Segmentation of continuous Dance Motion
+## Physically-based Character Animation
 <div class="embedded-image-wrapper">
     <div class="embedded-image-container">
         <img src="../../img/projects/iwamoto.jpg" alt="" />
