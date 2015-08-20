@@ -5,14 +5,16 @@ description = ""
 image = "3.jpg"
 +++
 
+## VISIGGRAPP 2015
+
 <div class="embedded-image-wrapper">
     <div class="embedded-image-container">
         <img src="../../img/news/3.jpg" alt="" />
     </div>
 </div>
+<br>
+<br>
 
-## VISIGGRAPP 2015
----
 ベルリンで開催されたVISIGGRAPP 2015にて，ダンスモーションのセグメント分割に関する研究発表を行ないました．
 
 <div class="publication">

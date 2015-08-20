@@ -1,5 +1,5 @@
 +++
-date = "2015-07-05T17:48:26+09:00"
+date = "2013-07-21T17:48:26+09:00"
 title = "Expressive Dance Motion Generation"
 description = ""
 image = "expressive.jpg"

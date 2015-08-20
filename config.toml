@@ -100,7 +100,7 @@ theme = "hugo-creative-theme"
     # Projects
 	[params.projects]
         headline = "Projects"
-        description = "現在進行中のプロジェクトを中心に紹介します."
+        description = "デジタルダンスグループのプロジェクトの一部を紹介します."
 
 	[params.projects.modal]
         client = "Client"
