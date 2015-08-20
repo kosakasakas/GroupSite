@@ -2,13 +2,13 @@
 date = "2015-07-05T17:48:26+09:00"
 title = "Expressive Dance Motion Generation"
 description = ""
-image = "0.jpg"
+image = "expressive.jpg"
 +++
 
-## Segmentation of continuous Dance Motion
+## Expressive Dance Motion Generation
 <div class="embedded-image-wrapper">
     <div class="embedded-image-container">
-        <img src="../../img/projects/0.jpg" alt="" />
+        <img src="../../img/projects/expressive.jpg" alt="" />
     </div>
 </div>
 
