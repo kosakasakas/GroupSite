@@ -134,6 +134,7 @@ theme = "hugo-creative-theme"
             img = "euclid_c.png"
             name = "岩本 尚也"
             description = "コンセプト，物理ベースキャラクタアニメーション"
+            url = "http://www.mlab.phys.waseda.ac.jp/member/iwamoto/index-j.html"
 
         [[params.people.member]]
             img = "wakana_c.png"
