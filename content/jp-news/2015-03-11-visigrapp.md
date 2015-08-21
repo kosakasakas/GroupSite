@@ -2,7 +2,7 @@
 date = "2015-03-11T17:48:26+09:00"
 title = "VISIGGRAPP 2015"
 description = ""
-image = "3.jpg"
+image = "3_icon.jpg"
 +++
 
 ## VISIGGRAPP 2015
