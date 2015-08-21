@@ -79,21 +79,35 @@ GroupSite/publicディレクトリがgithub pagesを実際に持つアカウン�
 基本的なパラメータは全てGroupSite/config.tomlに記載されているのでそれをいじってください。
 
 ### Newsの編集
-newsのようなモーダルある系の記事はGroupSite/news以下にあるyamlファイルで管理をしているのでそれをコピーして編集します。
-ただし、最新記事の順番にソートさせるにはファイル名の頭の採番を一個ずつ減らして新しいファイルを作っていく必要があります。理由はhugoのバグでmapの降順sortが機能しなかったため。
+Newsを新しくPostする場合は、GroupSite以下で以下のコマンドを打ってください。
 
-yamlが参照している画像はGroupSite/img/news以下に設置しています。ファイル名は任意でOKです。
-ファイルサイズは650x350pxが推奨です。
+    hugo new jp-news/newest-your-news.md ##好きなファイル名でOKです
+
+このとき、jp-newsがSection名になるので、JPのニュースを投稿する時はjp-newsを指定ディレクトリとして生成するようにしてください。
+このコマンドを打った後はGroupSite/content/jp-newsにmdファイルが生成されるので、それを随時編集してください。
+マークダウンで記述することができます。
+以下はヘッダに書かれているパラメータの説明です。
+
+    date  ## ポストした時の時刻が自動的に記述されます。また、この時間順で記事がオーダーされます。
+    title ## 記事のタイトル。主にカルーセルで表示されます。
+    description  ## 今のところ使っていない
+    image ## サムネイル。512x512が推奨。カルーセルで表示します。
+    draft ## 下書きかどうか。本番デプロイする際はこれを削除してください。
+
 
 ### Projectsの編集
-Newsとほぼ同じ
+Newsとほぼ同じ。postの際はjp-projectsを指定してください。
 
 ### Peopleの編集
 パラメータはGroupSite/config.tomlを編集すればOKです。画像はGroupSite/peopleを参照して下さい。
-200x200px推奨
+200x200px推奨。
+urlパラメータを指定することで、アイコンをクリックした際に指定した個人サイトに飛ばすことができるようになっています。
 
 ### Topの背景を変えたい
-gifがGroupSite/unnamed.gifにあります。これを差し替えればOKです。
+トップはHTML5で動画を再生しています。動画はGroupSite/img/movie/以下にある、opening.mp4とopening.webmを差し替えれば動きます。
+また、ローディング中に表示するための画像として、動画の0フレーム目の画像を0_frame.jpg、HTML5のvideoタグに対応していないブラウザ用にdefault.jpgを合わせて用意してmovie以下に設置してください。
+推奨サイズは720pで、ビットレート1Mくらいに抑えることをお勧めします。
+
 
 ## 構造など
 
@@ -103,3 +117,8 @@ gifがGroupSite/unnamed.gifにあります。これを差し替えればOKです
     GroupSite/themas # 改造テーマのサブモジュール
     Groupsite/public # 実際にデプロイするデータ群。自動生成される。github pagesのアカウントのリポジトリ
     Groupsite/deploy # デプロイする時はこれを叩くとpunlicにファイルがはかれてpushされる
+
+## 使用しているライブラリなど
+
+* [slick](https://github.com/kenwheeler/slick)
+* [share-button](http://syncer.jp/how-to-setting-share-button)
