@@ -1,7 +1,7 @@
 baseurl = "http://research.mlabdance.com/"
 languageCode = "en-us"
 title = "Digital Dance Group"
-theme = "hugo-creative-theme"
+theme = "creative"
 
 [params]
 

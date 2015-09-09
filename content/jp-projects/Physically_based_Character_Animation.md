@@ -28,7 +28,7 @@ Due to the recent advancement of computer graphics hardware and software algorit
 ---
 <div class="publication">
 <p>
-<b><i>Multi-layer Lattice Model for Real-Time Dynamic Character Animation</i></b><br>
+<b><i>Multi-layer Lattice Model for Real-Time Dynamic Character Deformation</i></b><br>
 Naoya Iwamoto，Hubert P.H. Shum, Longzhi Yang, and Shigeo Morishima<br>
 The 2015 Computer Graphics Forum (CGF)<br>
 Proceedings of the 2015 Pacific Conference on Computer Graphics and Applications (PG 2015), Beijing, 2015.10.07-09<br>
